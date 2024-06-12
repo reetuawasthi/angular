@@ -1,27 +1,51 @@
-# Emailclient
+# Email Client
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
+This is a simple Angular project for a web-based email client, allowing users to send and receive emails.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Compose and send emails
+- View inbox, sent, and other folders
+- Responsive design for various devices
+- Authentication system
+- Simple user interface
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Angular
+- HTML/CSS
+- TypeScript
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Prerequisites
 
-## Running unit tests
+Before running this project locally, make sure you have the following installed:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Node.js: [Download](https://nodejs.org/)
+- Angular CLI: Install globally via npm
+  ```bash
+  npm install -g @angular/cli
+  ```
 
-## Running end-to-end tests
+### Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Clone the repository
+   ```bash
+   git clone https://github.com/reetuawasthi/emailclient.git
+   cd emailclient
+   ```
 
-## Further help
+2. Install dependencies
+   ```bash
+   npm install
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+### Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
